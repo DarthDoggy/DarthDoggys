@@ -5,9 +5,10 @@ import os
 
 @bot.event
 async def on_ready():
-  print('Logged in as')
-  print(bot.user.name)
-  print(bot.user.id)
+	print('Logged in as')
+	print("User name:", client.user.name)
+	print("User id:", client.user.id)
+	print('---------------')
   
 bot = commands.Bot(command_prefix=("/"))
 
