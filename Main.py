@@ -9,7 +9,7 @@ async def on_ready():
   print(bot.user.name)
   print(bot.user.id)
   
-bot = commands.Bot(command_prefix=("d."))
+bot = commands.Bot(command_prefix=("/"))
 
 @bot.command(pass_context=True)
 async def ping(ctx):
