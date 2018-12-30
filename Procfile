@@ -1,1 +1,1 @@
-worker: python DarthDoggy.py
+worker: python Main.py
